@@ -6,13 +6,13 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = MonApp
 
 # (str) Package name
-package.name = myapp
+package.name = monapp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = org.aron733
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -453,12 +453,12 @@ warn_on_root = 1
 #
 #   Warning: Comments cannot be used "inline" - i.e.
 #       [app]
-#       title = My Application # This is not a comment, it is part of the title.
+#       title = MonApp
 #
 #   Warning: Indented text is treated as a multiline string - i.e.
 #       [app]
-#       title = My Application
-#          package.name = myapp # This is all part of the title.
+#       title = MonApp
+#          package.name = monapp
 #
 #   Buildozer's .spec files have some additional features:
 #
@@ -485,7 +485,7 @@ warn_on_root = 1
 #   and extend the excluded directories to remove the HD content.
 #
 #       [app@demo]
-#       title = My Application (demo)
+#       title = MonApp
 #
 #       [app:source.exclude_patterns@demo]
 #       images/hd/*
